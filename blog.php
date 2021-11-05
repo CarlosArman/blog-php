@@ -1,3 +1,14 @@
+<?php
+//Initialize Session
+session_start();
+
+if (isset($_SESSION['login'])) {
+
+  $fname = $_SESSION['fname'];
+  $lname = $_SESSION['lname'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +60,11 @@
                     <h2 class="intro-text text-center">The Perfect Cup
                         <strong>blog</strong>
                     </h2>
+              
                     <hr>
+                    <h2 class="text-center">Welcome <?php echo $fname;
+                                            echo " ";
+                                            echo $lname; ?> </h2>
                 </div>
                 <div class="col-lg-12 text-center">
                     <img class="img-responsive img-border img-full" src="assets/img/slide-1.jpg" alt="">
@@ -172,3 +187,10 @@
 </body>
 
 </html>
+
+<?php
+
+} else {
+  header("location:users/login.php ");
+}
+?>

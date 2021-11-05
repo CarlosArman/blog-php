@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,14 +56,14 @@
                 </div>
                 <div class="col-md-8">
                     <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                    <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
-                </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.454666490987!2d-118.37637588494849!3d34.08349118059748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2beb6dc5841b7%3A0xb9fed38ea369453c!2s3481%20Melrose%20Pl%2C%20Beverly%20Hills%2C%20CA%2090210%2C%20EE.%20UU.!5e0!3m2!1ses!2spe!4v1636070855263!5m2!1ses!2spe" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 <div class="col-md-4">
                     <p>Phone:
                         <strong>123.456.7890</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        <strong><a href="mailto:info@theperfectcup.com">info@theperfectcup.com</a></strong>
                     </p>
                     <p>Address:
                         <strong>3481 Melrose Place

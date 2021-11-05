@@ -52,6 +52,30 @@ hr {
     font-weight: 400;
     letter-spacing: 3px;
 }
+/* .dropdown .dropdown-menu>li>a{
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    letter-spacing: 3px !important;
+    background: #fff !important;
+    background: rgba(255,255,255,0.9);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    letter-spacing: 3px !important;
+    background: #fff !important;
+    background: rgba(255,255,255,0.9);
+}
+*/
+
+.navbar-default .navbar-nav .open .dropdown-menu {
+
+    padding: 5px 15px 5px 25px
+    ;
+}
+
 
 .img-full {
     min-width: 100%;
@@ -132,6 +156,7 @@ footer p {
     height: 100%;
 }
 
+
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
@@ -200,6 +225,20 @@ footer p {
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu {
+        color: #777;
+        padding: 35px;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+
+    } 
+    
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        background: transparent;
+        color: #777;
+        font-size: 1.25em;
+
     }
 }
 
