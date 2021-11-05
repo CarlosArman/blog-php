@@ -14,6 +14,13 @@ session_start();
 
     <title>The Perfect Cup - Home</title>
 
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -37,21 +44,21 @@ session_start();
 
     <div class="brand">The Perfect Cupl</div>
     <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
-	<?php
-		
-	if (isset($_GET["logout"])) {
-		
-		if ($_GET["logout"] == "true") { ?>
-			
-			<div class="alert alert-success">
-			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>You have been logged out of the system.</strong>
-			</div>   
+    <?php
 
-	<?php
-		}
-	}
-	?>
+    if (isset($_GET["logout"])) {
+
+        if ($_GET["logout"] == "true") { ?>
+
+            <div class="alert alert-success">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>You have been logged out of the system.</strong>
+            </div>
+
+    <?php
+        }
+    }
+    ?>
 
     <?php
     require_once 'partials/nav.php';
