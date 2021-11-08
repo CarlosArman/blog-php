@@ -9,10 +9,9 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>The Perfect Cup - About</title>
+    <meta name="description" content="CRUD task with related tables in php, html, css and javascript with boostrap">    
+    <meta name="author" content="Leoreal(CRA)">
+    <title>The Perfect Coffee - About</title>
 
     <!-- favicon -->
 
@@ -42,7 +41,7 @@ session_start();
 
 <body>
 
-    <div class="brand">The Perfect Cup</div>
+    <div class="brand">The Perfect Coffee</div>
     <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
     <!-- Navigation -->
@@ -57,7 +56,7 @@ session_start();
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">About
-                        <strong>The Perfect Cup</strong>
+                        <strong>The Perfect Coffee</strong>
                     </h2>
                     <hr>
                 </div>

@@ -1,7 +1,7 @@
 <?php
 
 //Open a new connection to the MySQL server
-$mysqli = new mysqli('localhost', 'root', 'yG},]5puk@MK', 'perfectcup');
+$mysqli = new mysqli('localhost', 'root', 'yG},]5puk@MK', 'theperfectcoffee');
 
 //Output any connection error
 if ($mysqli->connect_error) {

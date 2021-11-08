@@ -9,10 +9,10 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="CRUD task with related tables in php, html, css and javascript with boostrap">
+    <meta name="author" content="Leoreal(CRA)">
 
-    <title> The Perfect Cup - Contact</title>
+    <title> The Perfect Coffee - Contact</title>
 
     <!-- favicon -->
 
@@ -42,7 +42,7 @@ session_start();
 
 <body>
 
-    <div class="brand">The Perfect Cup</div>
+    <div class="brand">The Perfect Coffee</div>
     <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
     <!-- Navigation -->
@@ -57,20 +57,20 @@ session_start();
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">Contact
-                        <strong>The Perfect Cup</strong>
+                        <strong>The Perfect Coffee</strong>
                     </h2>
                     <hr>
                 </div>
                 <div class="col-md-8">
                     <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.454666490987!2d-118.37637588494849!3d34.08349118059748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2beb6dc5841b7%3A0xb9fed38ea369453c!2s3481%20Melrose%20Pl%2C%20Beverly%20Hills%2C%20CA%2090210%2C%20EE.%20UU.!5e0!3m2!1ses!2spe!4v1636070855263!5m2!1ses!2spe" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.454666490987!2d-118.37637588494849!3d34.08349118059748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2beb6dc5841b7%3A0xb9fed38ea369453c!2s3481%20Melrose%20Pl%2C%20Beverly%20Hills%2C%20CA%2090210%2C%20EE.%20UU.!5e0!3m2!1ses!2spe!4v1636070855263!5m2!1ses!2spe" title="Map" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="col-md-4">
                     <p>Phone:
                         <strong>123.456.7890</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:info@theperfectcup.com">info@theperfectcup.com</a></strong>
+                        <strong><a href="mailto:info@theperfectcoffee.com">info@theperfectcoffee.com</a></strong>
                     </p>
                     <p>Address:
                         <strong>3481 Melrose Place
@@ -103,8 +103,8 @@ session_start();
                                 <input type="email" class="form-control" id="email" name="email">
                             </div>
                             <div class="form-group col-lg-4">
-                                <label for="telephone">Phone Number</label>
-                                <input type="tel" class="form-control" id="telephone" name="telephone">
+                                <label for="subject">Subject</label>
+                                <input type="text" class="form-control" id="subject" name="subject">
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">

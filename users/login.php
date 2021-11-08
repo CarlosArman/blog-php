@@ -6,10 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title> The Perfect Cup - Login</title>
+    <meta name="description" content="CRUD task with related tables in php, html, css and javascript with boostrap">    <meta name="author" content="Leoreal(CRA)">
+    <title> The Perfect Coffee - Login</title>
 
     <!-- favicon -->
 
@@ -39,7 +37,7 @@
 
 <body>
 
-    <div class="brand">The Perfect Cup</div>
+    <div class="brand">The Perfect Coffee</div>
     <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
     <!-- Navigation -->
@@ -54,7 +52,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="../index.php">The Perfect Cup</a>
+                <a class="navbar-brand" href="../index.php">The Perfect Coffee</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

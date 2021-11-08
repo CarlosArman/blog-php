@@ -2,10 +2,10 @@ $(document).ready(function () {
 
     $("#register").click(function () {
 
-        fname = $("#fname").val();
-        lname = $("#lname").val();
-        email = $("#email").val();
-        password = $("#password").val();
+       let fname = $("#fname").val();
+       let lname = $("#lname").val();
+       let email = $("#email").val();
+       let password = $("#password").val();
 
         $.ajax({
             type: "POST",
@@ -14,46 +14,46 @@ $(document).ready(function () {
             success: function (html) {
                 if (html == 'true') {
 
-                    $("#add_err2").html('<div class="alert alert-success"> \
-                                         <strong>Account</strong> processed. \ \
-                                         </div>');
+                    $("#add_err2").html(`<div class="alert alert-success"> 
+                                         <strong>Account</strong> processed. 
+                                         </div>`);
 
-                    window.location.href = "index.php";
+                    window.location.href = "../index.php";
 
                 } else if (html == 'false') {
-                    $("#add_err2").html('<div class="alert alert-danger"> \
-                                         <strong>Email Address</strong> already in system. \ \
-                                         </div>');                    
+                    $("#add_err2").html(`<div class="alert alert-danger"> 
+                                         <strong>Email Address</strong> already in system. 
+                                         </div>`);                    
 
                 } else if (html == 'fname') {
-                    $("#add_err2").html('<div class="alert alert-danger"> \
-                                         <strong>First Name</strong> is required. \ \
-                                         </div>');
+                    $("#add_err2").html(`<div class="alert alert-danger"> 
+                                         <strong>First Name</strong> is required. 
+                                         </div>`);
                                          
                 } else if (html == 'lname') {
-                    $("#add_err2").html('<div class="alert alert-danger"> \
-                                         <strong>Last Name</strong> is required. \ \
-                                         </div>');
+                    $("#add_err2").html(`<div class="alert alert-danger"> 
+                                         <strong>Last Name</strong> is required. 
+                                         </div>`);
 
                 } else if (html == 'eshort') {
-                    $("#add_err2").html('<div class="alert alert-danger"> \
-                                         <strong>Email Address</strong> is required. \ \
-                                         </div>');
+                    $("#add_err2").html(`<div class="alert alert-danger"> 
+                                         <strong>Email Address</strong> is required. 
+                                         </div>`);
 
                 } else if (html == 'eformat') {
-                    $("#add_err2").html('<div class="alert alert-danger"> \
-                                         <strong>Email Address</strong> format is not valid. \ \
-                                         </div>');
+                    $("#add_err2").html(`<div class="alert alert-danger"> 
+                                         <strong>Email Address</strong> format is not valid. 
+                                         </div>`);
                                          
                 } else if (html == 'pshort') {
-                    $("#add_err2").html('<div class="alert alert-danger"> \
-                                         <strong>Password</strong> must be at least 4 characters . \ \
-                                         </div>');
+                    $("#add_err2").html(`<div class="alert alert-danger"> 
+                                         <strong>Password</strong> must be at least 4 characters . 
+                                         </div>`);
 
                 } else {
-                    $("#add_err2").html('<div class="alert alert-danger"> \
-                                         <strong>Error</strong> processing request. Please try again. \ \
-                                         </div>');
+                    $("#add_err2").html(`<div class="alert alert-danger"> 
+                                         <strong>Error</strong> processing request. Please try again. 
+                                         </div>`);
                 }
             },
             beforeSend: function () {

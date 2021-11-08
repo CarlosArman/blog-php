@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS perfectcup;
-USE perfectcup;
+CREATE DATABASE IF NOT EXISTS theperfectcoffee;
+USE theperfectcoffee;
 
 CREATE TABLE IF NOT EXISTS `members` (
   `id` int(15) NOT NULL AUTO_INCREMENT,
