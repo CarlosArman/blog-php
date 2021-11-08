@@ -1,10 +1,10 @@
 <?php
 
-$Host= "xlf3ljx3beaucz9x.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"	;
-$Username=	"gqcumaqrpb04wskb";	
-$Password=	"u0hlcfc5007qyozp";	
+$Host= ""	;
+$Username=	"";	
+$Password=	"";	
 $Port=	3306;	
-$Database=	"m16uumwdgxqus2sg";
+$Database=	"";
 
 //Open a new connection to the MySQL server
 $mysqli = new mysqli($Host, $Username, $Password, $Database);
