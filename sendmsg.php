@@ -51,14 +51,14 @@ if (strlen($fname) > 50) {
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         // if you are going to use gmail, you should first disable access to less secure apps. 
-        $mail->Username   = 'your email';                     //SMTP username
-        $mail->Password   = 'your password';                               //SMTP password
+        $mail->Username   = 'projecttesting08@gmail.com';                     //SMTP username
+        $mail->Password   = "i3SC_a'Em'GKx!7";                               //SMTP password
         $mail->SMTPSecure =  PHPMailer::ENCRYPTION_SMTPS;             //PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
         $mail->setFrom($email, $fname);
-        $mail->addAddress('your email'); //Add a recipient
+        $mail->addAddress('projecttesting08@gmail.com'); //Add a recipient
         $mail->addAddress($email);               //Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');
         // $mail->addCC('cc@example.com');
