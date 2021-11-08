@@ -1,10 +1,10 @@
 <?php
-
-$Host= ""	;
-$Username=	"";	
-$Password=	"";	
+// Your database credentials
+$Host="";
+$Username="";	
+$Password="";	
 $Port=	3306;	
-$Database=	"";
+$Database="";
 
 //Open a new connection to the MySQL server
 $mysqli = new mysqli($Host, $Username, $Password, $Database);
