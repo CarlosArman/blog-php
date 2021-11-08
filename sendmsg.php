@@ -51,6 +51,7 @@ if (strlen($fname) > 50) {
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         // if you are going to use gmail, you should first disable access to less secure apps. 
+        // your email credentials
         $mail->Username   = 'your email';                     //SMTP username
         $mail->Password   = "your password";                               //SMTP password
         $mail->SMTPSecure =  PHPMailer::ENCRYPTION_SMTPS;             //PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
